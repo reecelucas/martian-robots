@@ -1,0 +1,33 @@
+{
+  "name": "martian-robots",
+  "version": "1.0.0",
+  "description": "Martian robots code challenge for Red Badger",
+  "main": "src/processInput.js",
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "node test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reecelucas/martian-robots.git"
+  },
+  "keywords": [
+    "Code challenge",
+    "Node",
+    "js"
+  ],
+  "author": "Reece Lucas <reecelucas@sky.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/reecelucas/martian-robots/issues"
+  },
+  "homepage": "https://github.com/reecelucas/martian-robots#readme",
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "prettier": "^1.16.4",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
