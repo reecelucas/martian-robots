@@ -40,7 +40,8 @@ const getRobotPosition = string => {
 };
 
 /**
- * Takes a string with the following format:
+ * Takes an input string with the specified format
+ * (see README#the-input). E.g:
  *
  *    5 3\n
  *    1 1 E\n
