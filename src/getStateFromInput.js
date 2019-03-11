@@ -79,7 +79,10 @@ const getRobotPosition = string => {
  * @returns {Object}
  */
 module.exports = inputString => {
-  const [head, ...tail] = removeMultipleNewlines(inputString).split('\n');
+  const [head, ...tail] = removeMultipleNewlines(inputString)
+    .trim() // Remove trailing newline character (if present)
+    .split('\n');
+
   const robotPairs = chunk(tail, 2);
 
   return {
