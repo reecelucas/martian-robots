@@ -11,7 +11,7 @@ const getRobotPosition = ({ position }) => {
 };
 
 /**
- * Takes the state object and returns an "output" string
+ * Takes the application state and returns an "output" string
  * with the specified format (see README#sample-output).
  *
  * @param {Object}
